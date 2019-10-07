@@ -52,7 +52,7 @@ Note that `$x++` is considered **post-autoincrement**, and `++$x` is considered 
 
 Similarly with `--` (autodecrement):
 
-- `$a = $x--` will assign `$a` with 10 and `$x` with 0 (autodecrement `$x` after assigning value to `$a`)
+- `$a = $x--` will assign `$a` with 10 and `$x` with 9 (autodecrement `$x` after assigning value to `$a`)
 - `$a = --$x` will assign `$x` with 9 then assign `$a` with 9 (autodecrement `$x` before assigning value to `$a`)
 
 ### Bitwise Operators
